@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_jwt',
     'taskMaster',
-    'rest_framework_swagger',
     'drf_autodocs',
 
 
