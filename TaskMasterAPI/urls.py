@@ -18,11 +18,7 @@ from django.urls import path
 from django.conf.urls import include, url
 from rest_framework_jwt.views import obtain_jwt_token
 from rest_framework.schemas import get_schema_view
-from rest_framework_swagger.renderers import SwaggerUIRenderer, OpenAPIRenderer
 
-schema_view = get_schema_view(title='Task Master Api',
-                              renderer_classes=[OpenAPIRenderer,
-                                                SwaggerUIRenderer])
 urlpatterns = [
     url(r'^', include('drf_autodocs.urls')),
     url('admin/', admin.site.urls),

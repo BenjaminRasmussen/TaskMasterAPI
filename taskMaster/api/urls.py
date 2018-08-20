@@ -9,8 +9,6 @@ from .views import TaskListAPIView, TaskListRudView, TaskAPIView, TaskRudView,\
     TaskCommentRudView, TaskListCommentAPIView, TaskListCommentRudView, \
     SearchAPI, NotificationListAPIView, UserCreateAPI, NotificationRUDView
 from rest_framework_jwt.views import obtain_jwt_token
-from rest_framework.schemas import get_schema_view
-from rest_framework_swagger.renderers import SwaggerUIRenderer, OpenAPIRenderer
 
 urlpatterns = [
     # TaskList CRUD
